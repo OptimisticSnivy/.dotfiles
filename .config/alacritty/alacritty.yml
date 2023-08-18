@@ -1,0 +1,31 @@
+#Colorscheme(Catpuccin):
+import:
+   - ~/.config/alacritty/catppuccin/catppuccin-mocha1.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+
+#Window:
+
+window:
+  opacity: 1.0
+
+#Font config:
+font:
+  normal:
+    family: Iosevka Nerd Font
+    style: Medium
+
+  bold:
+    family: Iosevka Nerd Font
+    style: Bold
+
+  italic:
+    family: Iosevka Term
+    style: Italic
+
+  bold_italic:
+    family: Iosevka Nerd Font
+    style: Bold Italic
+
+  size: 9
