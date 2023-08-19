@@ -23,6 +23,7 @@ bspwm
 btrfs-progs
 cantarell-fonts
 chezmoi
+chromium
 cryptsetup
 device-mapper
 dex
