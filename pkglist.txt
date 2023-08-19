@@ -22,6 +22,10 @@ bluez-utils
 bspwm
 btrfs-progs
 cantarell-fonts
+catppuccin-gtk-theme-frappe
+catppuccin-gtk-theme-latte
+catppuccin-gtk-theme-macchiato
+catppuccin-gtk-theme-mocha
 chezmoi
 chromium
 cryptsetup
@@ -97,7 +101,9 @@ libgsf
 libopenraw
 libwnck3
 lightdm
+lightdm-mini-greeter
 lightdm-slick-greeter
+lightdm-webkit2-theme-glorious
 linux
 linux-firmware
 linux-headers
@@ -139,13 +145,16 @@ os-prober
 pacman-contrib
 pavucontrol
 perl
+pfetch
 picom
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pkgfile
+pokemon-colorscripts-git
 polkit-gnome
 polybar
+polybar-spotify-module
 poppler-glib
 power-profiles-daemon
 pv
@@ -168,6 +177,9 @@ scrot
 sg3_utils
 smartmontools
 sof-firmware
+spotify
+spotify-tui
+spotifywm-git
 starship
 stow
 sudo
@@ -186,6 +198,7 @@ ttf-dejavu
 ttf-liberation
 ttf-nerd-fonts-symbols
 ttf-opensans
+tty-clock
 tumbler
 unrar
 unzip
