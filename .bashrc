@@ -95,3 +95,6 @@ eval "$(starship init bash)"
 
 #(cat ~/.cache/wal/sequences &)
 
+. "$HOME/.cargo/env"
+
+export PATH="$HOME/.local/share/nvim/mason/bin/:$PATH"
