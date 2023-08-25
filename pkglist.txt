@@ -172,6 +172,7 @@ ripgrep
 rofi
 rsync
 rtkit
+rustup
 s-nail
 scrot
 sg3_utils
