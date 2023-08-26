@@ -1,6 +1,9 @@
 #Colorscheme(Catpuccin):
 import:
-   - ~/.config/alacritty/catppuccin/catppuccin-mocha1.yml
+   
+   - ~/.config/alacritty/catppuccin/rose-pine.yml
+#  - ~/.config/alacritty/catppuccin/nord.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-mocha1.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
