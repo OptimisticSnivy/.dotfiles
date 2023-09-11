@@ -1,7 +1,7 @@
 #Colorscheme(Catpuccin):
-import:
+#import:
    
-   - ~/.config/alacritty/catppuccin/rose-pine.yml
+#- ~/.config/alacritty/catppuccin/dracula.yml
 #  - ~/.config/alacritty/catppuccin/nord.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-mocha1.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
@@ -24,11 +24,11 @@ font:
     style: Bold
 
   italic:
-    family: Iosevka Term
+    family: Iosevka Nerd Font
     style: Italic
 
   bold_italic:
     family: Iosevka Nerd Font
     style: Bold Italic
 
-  size: 9
+  size: 13
