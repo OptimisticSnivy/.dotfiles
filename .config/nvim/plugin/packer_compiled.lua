@@ -138,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/anandmahamuni141/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-gotham"] = {
+    loaded = true,
+    path = "/home/anandmahamuni141/.local/share/nvim/site/pack/packer/start/vim-gotham",
+    url = "https://github.com/whatyouhide/vim-gotham"
   }
 }
 
