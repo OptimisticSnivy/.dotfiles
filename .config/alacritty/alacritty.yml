@@ -1,7 +1,7 @@
 #Colorscheme(Catpuccin):
 #import:
    
-#- ~/.config/alacritty/catppuccin/dracula.yml
+- ~/.config/alacritty/catppuccin/dracula.yml
 #  - ~/.config/alacritty/catppuccin/nord.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-mocha1.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
@@ -11,13 +11,13 @@
 #Window:
 
 window:
-  opacity: 0.5
+  opacity: 1
 
 #Font config:
 font:
   normal:
-    family: Iosevka Nerd Font
-    style: Medium
+    family: VictorMono Nerd Font 
+    style: Regular
 
   bold:
     family: Iosevka Nerd Font
