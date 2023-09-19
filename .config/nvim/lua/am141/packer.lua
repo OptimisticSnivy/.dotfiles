@@ -15,20 +15,13 @@ return require('packer').startup(function(use)
   }
 
  	 
-  use(
-  { 
-	  'rose-pine/neovim', as = 'rose-pine',
-	  config=function()
-		  vim.cmd("colorscheme rose-pine")
-		end
-  })	
-
+   use ('savq/melange-nvim')
    use ('nvim-treesitter/nvim-treesitter',{run ='TSUpdate'})
    use ('tpope/vim-fugitive')
    
    use {
  	 'VonHeikemen/lsp-zero.nvim',
-  	branch = 'v2.x',
+  	  branch = 'v2.x',
 	  requires = {
     	-- LSP Support
     	{'neovim/nvim-lspconfig'},             -- Required
@@ -39,18 +32,12 @@ return require('packer').startup(function(use)
     	{'hrsh7th/nvim-cmp'},     -- Required
     	{'hrsh7th/cmp-nvim-lsp'}, -- Required
     	{'L3MON4D3/LuaSnip'},     -- Required
- 
-    use({
-        "neanias/everforest-nvim",
-         -- Optional; default configuration will be used if setup isn't called.
-        config = function()
-            require("everforest").setup()
-        end,
-    })
+
+      }
     }
-}
 
-
+    vim.opt.termguicolors = true
+    vim.cmd.colorscheme 'melange'
 
 end)
 
