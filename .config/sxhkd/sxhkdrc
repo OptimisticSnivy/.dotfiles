@@ -13,7 +13,7 @@ super + Return
  #               -show-icons -drun-icon-theme "Qogir-dark" -font "Droid Sans Regular 10"
 
 super + d
-	sh ~/polybar-themes/simple/blocks/scripts/launcher.sh
+	sh ~/.config/polybar/grayblocks/scripts/launcher.sh
 
 # show open window
 super + ctrl + d
@@ -29,7 +29,7 @@ super + shift + d
 
 # power-menu 
 super + shift + e
-	sh ~/polybar-themes/simple/blocks/scripts/powermenu.sh
+	sh ~/.config/polybar/grayblocks/scripts/powermenu.sh
 	#sh ~/rofi/files/powermenu/type-1/powermenu.sh
 
 # flameshot-gui
