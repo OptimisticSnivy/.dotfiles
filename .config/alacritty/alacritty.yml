@@ -1,7 +1,8 @@
 #Colorscheme(Catpuccin):
 #import:
    
-#~/.config/alacritty/catppuccin/dracula.yml
+#   - ~/.config/alacritty/colorschemes/gruvbox.yml
+#  - ~/.config/alacritty/catppuccin/dracula.yml
 #  - ~/.config/alacritty/catppuccin/nord.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-mocha1.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
@@ -9,6 +10,10 @@
 #  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
 
 #Window:
+
+colors:
+  primary:
+    background: '0x272727'
 
 window:
   opacity: 1
@@ -32,3 +37,11 @@ font:
     style: Bold Italic
 
   size: 10
+
+cursor:
+  style:
+    shape: Beam
+    blinking: Always
+  blink_interval: 500
+  unfocused_hollow: true
+  thickness: 0.15
