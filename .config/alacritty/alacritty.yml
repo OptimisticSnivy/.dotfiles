@@ -1,19 +1,8 @@
 #Colorscheme(Catpuccin):
-#import:
-   
+import:
+ 
+    - ~/.config/alacritty/colorschemes/melange.yml
 #   - ~/.config/alacritty/colorschemes/gruvbox.yml
-#  - ~/.config/alacritty/catppuccin/dracula.yml
-#  - ~/.config/alacritty/catppuccin/nord.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-mocha1.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
-
-#Window:
-
-colors:
-  primary:
-    background: '0x272727'
 
 window:
   opacity: 1
@@ -36,7 +25,7 @@ font:
     family: VictorMono Nerd Font
     style: Bold Italic
 
-  size: 10
+  size: 14
 
 cursor:
   style:
