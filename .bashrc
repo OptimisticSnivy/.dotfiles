@@ -96,3 +96,5 @@ eval "$(starship init bash)"
 #(cat ~/.cache/wal/sequences &)
 
 . "$HOME/.cargo/env"
+
+export PATH=$PATH:/home/anandmahamuni141/.spicetify

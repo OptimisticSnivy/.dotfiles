@@ -16,7 +16,7 @@ return require('packer').startup(function(use)
    use ('savq/melange-nvim')
    use ('nvim-treesitter/nvim-treesitter',{run ='TSUpdate'})
    use ('tpope/vim-fugitive')
-   
+   use ('folke/zen-mode.nvim')
    use {
  	 'VonHeikemen/lsp-zero.nvim',
   	  branch = 'v2.x',
@@ -33,9 +33,6 @@ return require('packer').startup(function(use)
 
       }
     }
-
-    vim.opt.termguicolors = true
-    vim.cmd.colorscheme 'melange'
 
 end)
 
