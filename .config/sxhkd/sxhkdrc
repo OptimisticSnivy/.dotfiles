@@ -8,12 +8,12 @@ super + Return
 
 # program launcher
 #super + d
-#	rofi -modi drun -show drun -line-padding 4 \
-#                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
- #               -show-icons -drun-icon-theme "Qogir-dark" -font "Droid Sans Regular 10"
+	#rofi -modi drun -show drun -line-padding 4 \
+    #            -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
+    #            -show-icons -drun-icon-theme "Qogir-dark" -font "Droid Sans Regular 10"
 
 super + d
-	sh ~/.config/polybar/grayblocks/scripts/launcher.sh
+    rofi -show drun
 
 # show open window
 super + ctrl + d
@@ -29,8 +29,7 @@ super + shift + d
 
 # power-menu 
 super + shift + e
-	sh ~/.config/polybar/grayblocks/scripts/powermenu.sh
-	#sh ~/rofi/files/powermenu/type-1/powermenu.sh
+	sh ~/scripts/powermenu.sh
 
 # flameshot-gui
 super+f
