@@ -98,3 +98,7 @@ eval "$(starship init bash)"
 . "$HOME/.cargo/env"
 
 export PATH=$PATH:/home/anandmahamuni141/.spicetify
+
+#Aliases
+alias logoff="loginctl terminate-user anandmahamuni141"
+alias sql="sudo mariadb"

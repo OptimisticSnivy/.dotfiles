@@ -13,8 +13,7 @@ super + Return
     #            -show-icons -drun-icon-theme "Qogir-dark" -font "Droid Sans Regular 10"
 
 super + d
-    rofi -show drun
-
+	sh ~/.config/polybar/hack/scripts/launcher.sh
 # show open window
 super + ctrl + d
 	rofi -modi drun -show window -line-padding 4 \
@@ -29,7 +28,7 @@ super + shift + d
 
 # power-menu 
 super + shift + e
-	sh ~/scripts/powermenu.sh
+	sh ~/.config/polybar/hack/scripts/powermenu.sh
 
 # flameshot-gui
 super+f
