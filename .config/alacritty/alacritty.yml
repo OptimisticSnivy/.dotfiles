@@ -1,9 +1,9 @@
 #Colorscheme(Catpuccin):
 import:
  
-# - ~/.config/alacritty/colorschemes/gotham.yml
+ - ~/.config/alacritty/colorschemes/gotham.yml
 #  - ~/.config/alacritty/colorschemes/melange.yml
-   - ~/.config/alacritty/colorschemes/gruvbox.yml
+#  - ~/.config/alacritty/colorschemes/gruvbox.yml
 
 window:
   opacity: 0.9
