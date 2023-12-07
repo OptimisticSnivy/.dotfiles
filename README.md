@@ -13,6 +13,9 @@ The config isn't bootstrapped to install Packer plugins yet, so to get it runnin
 
 To-do: Bootstrap the plugin setup.
 
+### i3
+Basic changes from fonts to keybinds which follow Vim Motions.
+
 ### Picom 
 The Picom config handles the transperancy and eliminates any type of screen-tearing(for me atleast!).
 
