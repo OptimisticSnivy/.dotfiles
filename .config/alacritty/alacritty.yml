@@ -1,9 +1,9 @@
 #Colorscheme(Catpuccin):
 import:
  
- - ~/.config/alacritty/colorschemes/gotham.yml
-#  - ~/.config/alacritty/colorschemes/melange.yml
-#  - ~/.config/alacritty/colorschemes/gruvbox.yml
+#- ~/.config/alacritty/colorschemes/gotham.yml
+# - ~/.config/alacritty/colorschemes/melange.yml
+- ~/.config/alacritty/colorschemes/gruvbox.yml
 
 window:
   opacity: 0.9
@@ -26,7 +26,7 @@ font:
     family: Iosevka Nerd Font Mono 
     style: Bold Italic
 
-  size: 14
+  size: 12
 
 cursor:
   style:
