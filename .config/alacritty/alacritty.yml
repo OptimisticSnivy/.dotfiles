@@ -1,9 +1,13 @@
 #Colorscheme(Catpuccin):
 import:
  
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
 #- ~/.config/alacritty/colorschemes/gotham.yml
 # - ~/.config/alacritty/colorschemes/melange.yml
-- ~/.config/alacritty/colorschemes/gruvbox.yml
+#- ~/.config/alacritty/colorschemes/gruvbox.yml
 
 window:
   opacity: 0.9
