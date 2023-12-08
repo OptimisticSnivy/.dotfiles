@@ -185,8 +185,14 @@ bar {
         status_command i3status
 }
 
-#Autostart
+# Autostart
 
 exec --no-startup-id nitrogen --restore -b
 exec --no-startup-id redshift -P -O 4500
 exec --no-startup-id picom -b
+
+# Specific WS apps
+
+assign [class="firefox"] $ws2
+assign [class="Spotify"] $ws5
+assign [class="Nitrogen"] $ws6
