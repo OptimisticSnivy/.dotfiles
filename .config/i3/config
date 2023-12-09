@@ -195,4 +195,5 @@ exec --no-startup-id picom -b
 
 assign [class="firefox"] $ws2
 assign [class="Spotify"] $ws5
+assign [class="discord"] $ws4
 assign [class="Nitrogen"] $ws6
