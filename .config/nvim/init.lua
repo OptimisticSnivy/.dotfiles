@@ -187,8 +187,12 @@ require('lazy').setup({
       end,
     },
   },
-
   {
+    "fynnfluegge/monet.nvim",
+    name = "monet",
+  },
+  { 
+    --Colorscheme
     'rose-pine/neovim',
     priority = 1000,
     config = function()
@@ -242,7 +246,8 @@ require('lazy').setup({
       },
     },
   },
-
+  
+  { 'ThePrimeagen/harpoon' },
   {
     -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
