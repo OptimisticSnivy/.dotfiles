@@ -214,15 +214,6 @@ require('lazy').setup({
     },
   },
 
-  {
-    -- Add indentation guides even on blank lines
-    'lukas-reineke/indent-blankline.nvim',
-    -- Enable `lukas-reineke/indent-blankline.nvim`
-    -- See `:help ibl`
-    main = 'ibl',
-    opts = {},
-  },
-
   -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
@@ -246,8 +237,6 @@ require('lazy').setup({
       },
     },
   },
-  
-  { 'ThePrimeagen/harpoon' },
   {
     -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
