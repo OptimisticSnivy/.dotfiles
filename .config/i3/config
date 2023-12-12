@@ -188,7 +188,7 @@ bar {
 # Autostart
 
 exec --no-startup-id nitrogen --restore -b
-exec --no-startup-id redshift -P -O 4500
+exec --no-startup-id redshift -P -O 4200
 exec --no-startup-id picom -b
 
 # Specific WS apps
