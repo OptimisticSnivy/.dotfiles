@@ -4,7 +4,7 @@ Home to all my .dotfiles
 ## Notes (for myself more than anyone else, in case I forget!)
 
 ### Prequisite
-1. [Ioveska Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/IosevkaTerm.zip)
+1. [Iovsevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/IosevkaTerm.zip)
 
 ### Neovim 
 ~~Most of the setup was done by following through this beautiful video by [ThePrimagen](https://www.youtube.com/watch?v=w7i4amO_zaE).~~
@@ -13,7 +13,7 @@ Home to all my .dotfiles
 
 ~~To-do: Bootstrap the plugin setup.~~
 
-Now instead follows or originates from [kickstarter.nvim](https://github.com/nvim-lua/kickstart.nvim)
+Now instead follows from [kickstarter.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 To-do: Structure/Organize init.lua!
 

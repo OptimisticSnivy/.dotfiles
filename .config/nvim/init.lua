@@ -193,11 +193,14 @@ require('lazy').setup({
   },
   { 
     --Colorscheme
-    'rose-pine/neovim',
+    'folke/tokyonight.nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'rose-pine'
+      vim.cmd.colorscheme 'tokyonight'
     end,
+  },
+  {
+    'xiyaowong/transparent.nvim'
   },
 
   {
@@ -207,7 +210,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'rose-pine',
+        theme = 'tokyonight',
         component_separators = '|',
         section_separators = '',
       },
