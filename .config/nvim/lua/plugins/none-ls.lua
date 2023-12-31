@@ -9,6 +9,7 @@ return {
 				null_ls.builtins.diagnostics.eslint_d,
 			},
 		})
-		vim.keymap.set("n", "<leader>fr", vim.lsp.buf.format, {})
+
+		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 	end,
 }
