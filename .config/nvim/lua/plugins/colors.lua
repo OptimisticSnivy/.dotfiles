@@ -1,8 +1,8 @@
-return { 
+return {
 	"folke/tokyonight.nvim",
 	name = "tokyonight",
-	priority = 1000, 
+	priority = 1000,
 	config = function()
-		vim.cmd.colorscheme "tokyonight"
-	end
+		vim.cmd.colorscheme("tokyonight")
+	end,
 }
