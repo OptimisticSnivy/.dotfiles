@@ -13,9 +13,9 @@ Home to all my .dotfiles
 
 ~~To-do: Bootstrap the plugin setup.~~
 
-Now instead follows from [kickstarter.nvim](https://github.com/nvim-lua/kickstart.nvim)
+~~Tow instead follows from [kickstarter.nvim](https://github.com/nvim-lua/kickstart.nvim)~~
 
-To-do: Structure/Organize init.lua!
+~~To-do: Structure/Organize init.lua!~~
 
 ### i3
 Basic changes from fonts to keybinds which follow Vim Motions.
