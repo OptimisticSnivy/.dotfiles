@@ -1,8 +1,7 @@
 #Colorscheme(Catpuccin):
 import:
- 
-# - ~/.config/alacritty/catppuccin/rose-pine.yml
- - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+  - ~/.config/alacritty/catppuccin/rosepine.yml
+# - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
@@ -16,19 +15,19 @@ window:
 #Font config:
 font:
   normal:
-    family: Iosevka Nerd Font Mono 
+    family: Iosevka Nerd Font Mono
     style: Regular
 
   bold:
-    family:  Iosevka Nerd Font Mono 
+    family: Iosevka Nerd Font Mono
     style: Bold
 
   italic:
-    family:  Iosevka Nerd Font Mono 
+    family: Iosevka Nerd Font Mono
     style: Italic
 
   bold_italic:
-    family: Iosevka Nerd Font Mono 
+    family: Iosevka Nerd Font Mono
     style: Bold Italic
 
   size: 16
