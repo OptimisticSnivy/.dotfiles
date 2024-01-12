@@ -32,9 +32,12 @@ vim.o.completeopt = "menuone,noselect"
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
--- Greatest remap ever
-vim.keymap.set("n","<leader>p","\"_dP",{})
+-- Greatest remaps ever
+vim.keymap.set("n","<leader>p","\"_dP")
 
-vim.keymap.set("n","<C-d>","<C-d>zz",{})
-vim.keymap.set("n","<C-u>","<C-u>zz",{})
-vim.keymap.set("n","<leader>p","\"_dP",{})
+vim.keymap.set("n","<C-d>","<C-d>zz")
+vim.keymap.set("n","<C-u>","<C-u>zz")
+vim.keymap.set("n","n","nzzzv")
+vim.keymap.set("n","N","Nzzzv")
+
+vim.keymap.set("n","<leader>p","\"_dP")
