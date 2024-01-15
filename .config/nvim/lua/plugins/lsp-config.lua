@@ -32,6 +32,9 @@ return {
 			lspconfig.lua_ls.setup({
 				capabilites = capabilities,
 			})
+			lspconfig.pyright.setup({
+				capabilites = capabilities,
+			})
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
