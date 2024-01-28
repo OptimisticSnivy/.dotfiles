@@ -41,7 +41,9 @@ return {
 			vim.keymap.set("n", "gr", vim.lsp.buf.references, {})
 			vim.keymap.set("n", "ca", vim.lsp.buf.code_action, {})
 			vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename, {})
-			vim.keymap.set("n", "<leader>df", vim.diagnostic.goto_next, {})
+			vim.keymap.set("n", "<leader>dj", vim.diagnostic.goto_next, {})
+			vim.keymap.set("n", "<leader>dk", vim.diagnostic.goto_prev, {})
+			vim.keymap.set("n", "<leader>td","<cmd>Telescope diagnostics<CR>" , {})
 		end,
 	},
 }
