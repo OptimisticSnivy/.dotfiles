@@ -1,0 +1,30 @@
+[cursor]
+blink_interval = 500
+thickness = 0.15
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "Always"
+shape = "Beam"
+
+[font]
+size = 17
+
+[font.bold]
+family = "Iosevka Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Iosevka Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Iosevka Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka Nerd Font Mono"
+style = "Regular"
+
+[window]
+opacity = 0.9

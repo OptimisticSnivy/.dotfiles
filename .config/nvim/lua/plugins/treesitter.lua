@@ -21,7 +21,6 @@ return {
 					"regex",
 					"toml",
 					"typescript",
-					"yaml",
 				},
 				highlight = { enable = true },
 				indent = { enable = true },
