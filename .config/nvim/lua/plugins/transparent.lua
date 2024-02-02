@@ -5,6 +5,6 @@ return {
 		require("transparent").clear_prefix("NeoTree")
 		require("transparent").clear_prefix("toggleterm")
 		require("transparent").clear_prefix("telescope")
-		require("transparent").clear_prefix("zen-mode")
+		require("transparent").clear_prefix("noice")
 	end,
 }
