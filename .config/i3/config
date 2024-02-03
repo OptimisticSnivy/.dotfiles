@@ -222,3 +222,8 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
 
 bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu%'"
+
+# Brightness 
+
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +20%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 20%-
