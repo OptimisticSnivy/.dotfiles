@@ -229,7 +229,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 
 # Gaps
-gaps inner 20
+gaps inner 10
 gaps outer 0
 
 # Border-less
