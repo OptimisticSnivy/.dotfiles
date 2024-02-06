@@ -225,8 +225,8 @@ bindsym $mod+Shift+e exec "bash /home/anandmahamuni141/.dotfiles/.config/rofi/fi
 
 bindsym $mod+d exec "/home/anandmahamuni141/.dotfiles/.config/rofi/files/launchers/type-4/launcher.sh"
 
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 10%-
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set +10%
 
 # Gaps
 gaps inner 10
