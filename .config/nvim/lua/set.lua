@@ -43,3 +43,8 @@ vim.keymap.set("n","N","Nzzzv")
 vim.keymap.set("n","<leader>p","\"_dP")
 
 vim.keymap.set("n","<Tab>","<c-w>w")
+
+-- Stop using arrows keys you moron!
+
+vim.keymap.set("n","<left>","<cmd>echo 'STOP IT USE h'<CR>!")
+vim.keymap.set("n","<right>","<cmd>echo 'STOP IT USE l'<CR>!")
