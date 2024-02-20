@@ -21,5 +21,5 @@ if pgrep -x "spotify" > /dev/null; then
     echo "Paused."
   fi
 else
-  echo "Not running.Click to open"
+  echo ""
 fi
