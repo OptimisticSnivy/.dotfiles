@@ -22,3 +22,5 @@
 	ui = auto
 [branch]
 	sort = -committerdate
+[maintenance]
+	repo = /home/anandmahamuni141/.dotfiles

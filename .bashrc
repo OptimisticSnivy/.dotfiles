@@ -7,9 +7,13 @@ export NVM_DIR="$HOME/.nvm"
 
 # Aliases 
 alias python='python3'
-alias vim='nvim'
+alias ls='exa'
+alias ll='exa -alh'
+# alias htop='btop'
 alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 
 # vim mode for terminal
 set -o vi
+
+eval "$(zoxide init bash)"
