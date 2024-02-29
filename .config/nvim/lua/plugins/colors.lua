@@ -1,8 +1,11 @@
 return {
-	"Tsuzat/NeoSolarized.nvim",
-	lazy = false,   -- make sure we load this during startup if it is your main colorscheme
-	priority = 1000, -- make sure to load this before all the other start plugins
+	"ellisonleao/gruvbox.nvim",
+	name = "gruvbox",
+	priority = 1000,
 	config = function()
-		vim.cmd([[ colorscheme NeoSolarized ]])
+		require("gruvbox").setup({
+			transparent_mode = true,
+		})
+		vim.cmd("colorscheme gruvbox")
 	end,
 }
