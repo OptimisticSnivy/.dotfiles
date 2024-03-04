@@ -1,3 +1,4 @@
+export PATH=$PATH:~/scripts
 eval "$(starship init bash)"
 
 export NVM_DIR="$HOME/.nvm"
@@ -17,3 +18,4 @@ alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 set -o vi
 
 eval "$(zoxide init bash)"
+

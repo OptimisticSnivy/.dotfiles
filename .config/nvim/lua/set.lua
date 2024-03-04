@@ -48,3 +48,5 @@ vim.keymap.set("n","<Tab>","<c-w>w")
 
 vim.keymap.set("n","<left>","<cmd>echo 'STOP IT USE h'<CR>!")
 vim.keymap.set("n","<right>","<cmd>echo 'STOP IT USE l'<CR>!")
+
+vim.keymap.set("n", "<leader>tm", "<cmd>silent !tmux new tmux-sessionizer<CR>")
