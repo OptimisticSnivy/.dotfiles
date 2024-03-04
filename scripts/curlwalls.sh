@@ -6,6 +6,6 @@ format="$(echo $url | grep -o '...$')"
 
 filename="$(echo $url | awk -F "/" '{ print $NF}')"
 
-path= ~/repos/wallpapers
-curl $url > $filename
+
+curl $url > ~/repos/wallpapers/$filename
 echo -e "filename: $filename"
