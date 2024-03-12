@@ -6,9 +6,9 @@ return {
 		end
 		require("lualine").setup({
 			options = {
-				theme = "gruvbox",
-				component_separators = { left = '', right = ''},
-				section_separators = { left = '', right = ''},
+				theme = 'NeoSolarized',
+				component_separators = { left = '', right = '' },
+				section_separators = { left = '', right = '' },
 			},
 			sections = {
 				lualine_a = {
@@ -16,7 +16,7 @@ return {
 				},
 			},
 			inactive_sections = {
-      			lualine_a = { window },}
+				lualine_a = { window }, }
 		})
 	end,
 }
