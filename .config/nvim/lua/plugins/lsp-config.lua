@@ -38,6 +38,9 @@ return {
 			lspconfig.gopls.setup({
 				capabilites = capabilities,
 			})
+			lspconfig.clangd.setup({
+				capabilites = capabilities,
+			})
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
@@ -46,7 +49,7 @@ return {
 			vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename, {})
 			vim.keymap.set("n", "<leader>dj", vim.diagnostic.goto_next, {})
 			vim.keymap.set("n", "<leader>dk", vim.diagnostic.goto_prev, {})
-			vim.keymap.set("n", "<leader>td","<cmd>Telescope diagnostics<CR>" , {})
+			vim.keymap.set("n", "<leader>td", "<cmd>Telescope diagnostics<CR>", {})
 		end,
 	},
 }
