@@ -1,5 +1,4 @@
-return {
-	"ThePrimeagen/vim-apm",
+return { "ThePrimeagen/vim-apm",
 	config = function()
 		local apm = require("vim-apm")
 
@@ -7,5 +6,5 @@ return {
 		vim.keymap.set("n", "<leader>apm", function()
 			apm:toggle_monitor()
 		end)
-	end,
+	end
 }
