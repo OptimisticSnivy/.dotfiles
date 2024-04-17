@@ -44,6 +44,7 @@ vim.keymap.set("n","<leader>p","\"_dP")
 
 vim.keymap.set("n","<Tab>","<c-w>w")
 
+vim.keymap.set("n","<leader>pp",":")
 -- Stop using arrows keys you moron!
 
 vim.keymap.set("n","<left>","<cmd>echo 'STOP IT USE h'<CR>!")
