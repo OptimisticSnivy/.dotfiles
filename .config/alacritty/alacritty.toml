@@ -11,19 +11,19 @@ shape = "Beam"
 size = 11
 
 [font.bold]
-family = "VictorMono Nerd Font Mono"
+family = "Iosevka Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "VictorMono Nerd Font Mono"
+family = "Iosevka Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "VictorMono Nerd Font Mono"
+family = "Iosevka Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "VictorMono Nerd Font Mono"
+family = "Iosevka Nerd Font Mono"
 style = "Regular"
 
 [window]
