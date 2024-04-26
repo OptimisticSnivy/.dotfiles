@@ -8,7 +8,7 @@ blinking = "Always"
 shape = "Beam"
 
 [font]
-size = 11
+size = 15
 
 [font.bold]
 family = "Iosevka Nerd Font Mono"
