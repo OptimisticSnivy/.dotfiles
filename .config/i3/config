@@ -589,6 +589,7 @@ bindsym $mod+t exec --no-startup-id rofi -show window \
 #bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard \
 #		-config ~/.config/rofi/rofidmenu.rasi
 exec --no-startup-id redshift -P -O 4300
-exec --no-startup-id feh --bg-fill /home/anandmahamuni141/Downloads/wallhaven-5gqqx3.jpg
+exec --no-startup-id feh --bg-fill /home/anandmahamuni141/Downloads/pbt4l3hhol2d1.jpg
 exec --no-startup-id picom -b
 assign [class="(?i)firefox"] $ws2 
+
