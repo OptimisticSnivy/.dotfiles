@@ -1,0 +1,119 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Technical Skills",
+    "projects": "Projects",
+    "awards": " Achievements"
+  },
+  "basics": {
+    "name": "Anand Mahamuni",
+    "email": "m.anand7203@gmail.com",
+    "phone": "9158724294",
+    "website": "https://optimisticsnivy.github.io/portfoliomaybe-/",
+    "location": {
+      "address": "Pune, Maharashtra"
+    }
+  },
+  "education": [
+    {
+      "area": "Computer Science",
+      "studyType": "Bachelor of Engineering in",
+      "endDate": "Jan 2025",
+      "gpa": "7.16",
+      "institution": "AISSMS College of Engineering",
+      "location": "Pune,Maharastra",
+      "startDate": "Jan 2021"
+    },
+    {}
+  ],
+  "work": [
+    {
+      "location": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": [
+        "Familiar"
+      ]
+    },
+    {
+      "keywords": [
+        "Familiar"
+      ],
+      "name": "C"
+    },
+    {
+      "keywords": [
+        "Vanilla JS, Node, Svelte+SvelteKit"
+      ],
+      "name": "Javascript"
+    },
+    {
+      "keywords": [
+        "Familiar working with Linux, Comfortable in CLI, Vim/Neovim, Version Control w/ Git"
+      ],
+      "name": "Miscellaneous"
+    },
+    {
+      "keywords": [
+        "Familiar"
+      ],
+      "name": "Lua"
+    },
+    {
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "description": "Needledropd is a social platform for sharing your taste in music. A quasi-Letterdboxd clone but for Music/Vinyls. Made with Svelte as primary frontend. Initially used for personal use for keeping track of Album wishlist, and plan to make it public.",
+      "keywords": [
+        "Svelte, JS, NodeJS"
+      ],
+      "name": "Needledropd. (In Progress)",
+      "url": "(In progress)"
+    },
+    {
+      "keywords": [
+        "Lua"
+      ],
+      "name": "Neovim Plugin/Colorscheme (In progress)",
+      "url": "(In progress)",
+      "description": "Neovim plugin made in Lua. More to write here... "
+    },
+    {
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    },
+    {}
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
