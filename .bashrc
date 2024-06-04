@@ -18,12 +18,3 @@ alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 set -o vi
 
 eval "$(zoxide init bash)"
-
-# fzfxbashistory
-
-source <(fzf --bash)
-
-HISTFILE=~/.bash_history
-HISTSIZE=10000
-SAVEHIST=10000
-# setopt appendhistory

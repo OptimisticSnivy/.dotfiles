@@ -7,7 +7,7 @@ Home to all my .dotfiles
 1. [Iovsevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/IosevkaTerm.zip)
 
 ### Neovim 
-~~Most of the setup was done by following through this beautiful video by [ThePrimagen](https://www.youtube.com/watch?v=w7i4amO_zaE).~~
+~~Most of the setup was done by following through this beautiful video by [ThePrimeagen](https://www.youtube.com/watch?v=w7i4amO_zaE).~~
 
 ~~The config isn't bootstrapped to install Packer plugins yet, so to get it running, source the packer.nvim file and then do a :PackerSync.~~
 
