@@ -21,18 +21,12 @@ return {
 		lazy = false,
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			local on_attach = function(client, bufnr)
-				-- assign keymaps meant for lsp features
-				keymaps.lsp_on_attach(bufnr)
-			end
-
 			local servers = { "tsserver", "html", "lua_ls", "gopls", "svelte", "cssls", "html" }
 			local lspconfig = require("lspconfig")
 
 			for _, lsp in pairs(servers) do
 				require("lspconfig")[lsp].setup({
 					capabilities = capabilities,
-					on_attach = on_attach,
 				})
 			end
 
