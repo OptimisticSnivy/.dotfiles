@@ -21,26 +21,20 @@ return {
 		lazy = false,
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
+			local on_attach = function(client, bufnr)
+				-- assign keymaps meant for lsp features
+				keymaps.lsp_on_attach(bufnr)
+			end
 
+			local servers = { "tsserver", "html", "lua_ls", "gopls", "svelte", "cssls", "html" }
 			local lspconfig = require("lspconfig")
-			lspconfig.tsserver.setup({
-				capabilites = capabilities,
-			})
-			lspconfig.html.setup({
-				capabilites = capabilities,
-			})
-			lspconfig.lua_ls.setup({
-				capabilites = capabilities,
-			})
-			lspconfig.pyright.setup({
-				capabilites = capabilities,
-			})
-			lspconfig.gopls.setup({
-				capabilites = capabilities,
-			})
-			lspconfig.clangd.setup({
-				capabilites = capabilities,
-			})
+
+			for _, lsp in pairs(servers) do
+				require("lspconfig")[lsp].setup({
+					capabilities = capabilities,
+					on_attach = on_attach,
+				})
+			end
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
