@@ -1,6 +1,9 @@
 return {
 	"rose-pine/neovim",
-	name = "rose-pine",
+	version = false,
+	lazy = false,
+	priority = 1000, -- make sure to load this before all the other start plugins
+	-- Optional; default configuration will be used if setup isn't called.
 	config = function()
 		require("rose-pine").setup({
 			styles = {
@@ -11,5 +14,4 @@ return {
 		})
 		vim.cmd.colorscheme("rose-pine")
 	end,
-	priority = 1000,
 }

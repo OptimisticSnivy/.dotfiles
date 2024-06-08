@@ -11,19 +11,19 @@ shape = "Beam"
 size = 10
 
 [font.bold]
-family = "JetBrains Mono Nerd Font Mono"
+family = "UbuntuMono Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrains Mono Nerd Font Mono"
+family = "UbuntuMono Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrains Mono Nerd Font Mono"
+family = "UbuntuMono Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "JetBrains Mono Nerd Font Mono"
+family = "UbuntuMono Nerd Font Mono"
 style = "Regular"
 
 [window]
