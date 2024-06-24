@@ -9,8 +9,9 @@ export NVM_DIR="$HOME/.nvm"
 # Aliases 
 alias python='python3'
 alias ls='exa'
+alias bat='cat'
 alias ll='exa -alh'
-# alias htop='btop'
+alias htop='btop'
 alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 
