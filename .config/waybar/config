@@ -5,8 +5,7 @@
     "height": 6, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "sway/mode", "custom/media"],
-    "modules-center": ["hyprland/window"],
+    "modules-left": ["hyprland/workspaces", "custom/media"],
     "modules-right": ["backlight", "pulseaudio", "network", "battery" , "battery#bat2", "clock", "tray"],
     // Modules configuration
     // "sway/workspaces": {
