@@ -11,7 +11,7 @@ alias python='python3'
 alias ls='exa'
 alias bat='cat'
 alias ll='exa -alh'
-alias htop='btop'
+alias btop='btop --utf-force'
 alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 
