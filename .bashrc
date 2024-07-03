@@ -1,4 +1,5 @@
 export PATH=$PATH:~/scripts
+export PATH=$PATH:/usr/local/go/bin
 eval "$(starship init bash)"
 
 export NVM_DIR="$HOME/.nvm"
