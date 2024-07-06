@@ -11,7 +11,7 @@
 }
 
 window#waybar {
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: black;
 	/* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
 	color: #ffffff;
 	/* transition-property: background-color; */
@@ -23,9 +23,9 @@ window#waybar {
     opacity: 0.2;
 } */
 
-window#waybar.empty {
-	background-color: transparent;
-}
+/* window#waybar.empty { */
+/* 	background-color: transparent; */
+/* } */
 
 /* window#waybar.solo { */
 /*     background-color: #FFFFFF; */
