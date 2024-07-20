@@ -12,7 +12,6 @@ window {
   margin: 4px;
   border: none;
   color: #e2e0ec;
-  font-weight: bold;
   background-color: #161420;
   outline: none;
   border-radius: 15px;
@@ -23,7 +22,7 @@ window {
 #inner-box {
   margin: 4px;
   padding: 10px;
-  font-weight: bold;
+  /* font-weight: bold; */
   border-radius: 15px;
 }
 

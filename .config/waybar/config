@@ -6,7 +6,7 @@
     // "width": 1280, // Waybar width
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "custom/media"],
-    "modules-right": ["backlight", "pulseaudio", "network", "battery" , "battery#bat2", "clock", "tray"],
+    "modules-right": ["backlight", "pulseaudio", "battery" , "battery#bat2", "clock", "tray"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -98,9 +98,9 @@
         "format-charging": "{capacity}%",
         "format-plugged": "{capacity}%",
         "format-alt": "{time} ",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        // "format-icons": ["", "", "", "", ""]
+				"format-good": "", // An empty format will hide the module
+				"format-full": "full",
+				"format-icons": ["", "", "", "", ""]
     },
     "battery#bat2": {
         "bat": "BAT2"
