@@ -1,6 +1,6 @@
 * {
   border: none;
-  /* border-radius: 4px; */
+  border-radius: 4px;
   /* `ttf-font-awesome` is required to be installed for icons */
   font-family: BlexMono Nerd Font, Symbols Nerd Font;
   /* adjust font-size value to your liking: */
@@ -53,7 +53,7 @@ window#waybar.chromium {
 #workspaces button.active {
   background: white;
   color: black;
-  /* border-radius: 13px; */
+  border-radius: 13px;
 }
 
 #workspaces button.hover {

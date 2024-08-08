@@ -22,7 +22,7 @@ window {
 #inner-box {
   margin: 4px;
   padding: 10px;
-  /* font-weight: bold; */
+  font-weight: bold;
   border-radius: 15px;
 }
 

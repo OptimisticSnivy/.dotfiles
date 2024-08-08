@@ -6,7 +6,7 @@
     // "width": 1280, // Waybar width
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "custom/media"],
-    "modules-right": ["backlight", "pulseaudio", "battery" , "battery#bat2", "clock", "tray"],
+    "modules-right": ["backlight", "pulseaudio", "battery" , "battery#bat2", "clock", "network", "tray"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
