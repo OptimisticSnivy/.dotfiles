@@ -6,7 +6,7 @@
     // "width": 1280, // Waybar width
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "custom/media"],
-    "modules-right": ["backlight", "pulseaudio", "battery" , "battery#bat2", "clock","tray"],
+    "modules-right": ["battery" ,"backlight", "pulseaudio",  "clock","tray"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -85,26 +85,20 @@
     },
     "backlight": {
         // "device": "acpi_video1",
-        "format": "{percent}% ",
-        "format-icons": ["", ""]
+        "format": "{percent}% {icon}",
+        "format-icons": [""]
     },
-    "battery": {
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% ",
-        "format-charging": "{capacity}%",
-        "format-plugged": "{capacity}%",
-        "format-alt": "{time} ",
-				"format-good": "", // An empty format will hide the module
-				"format-full": "full",
-				"format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-        "bat": "BAT2"
-    },
+ 		"battery": {
+			"bat": "BAT1",
+			"interval": 60,
+			"states": {
+				"warning": 30,
+				"critical": 15
+			},
+			"format": "{capacity}% {icon}",
+			"format-icons": ["", "", "", "", ""],
+			"max-length": 25
+		},
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
@@ -115,7 +109,8 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}%  {format_source}",
+        "format": " {icon} {volume}%  {format_source}",
+				"format-icons": ["", "", ""],
         "format-bluetooth": "{volume}%  {format_source}",
         "format-bluetooth-muted": " {format_source}",
         "format-muted": "mute {format_source}",

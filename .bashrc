@@ -2,6 +2,9 @@ export PATH=$PATH:~/scripts
 eval "$(starship init bash)"
 
 export PATH=$PATH:~/.cargo/bin/
+export SYSTEMD_EDITOR=vim
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
