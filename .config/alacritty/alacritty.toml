@@ -27,7 +27,7 @@ family = "BlexMono Nerd Font"
 style = "Regular"
 
 [window]
-opacity = 0.9
+opacity = 0.85
 
 [window.padding]
 x = 12
