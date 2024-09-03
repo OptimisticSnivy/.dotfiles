@@ -8,22 +8,22 @@ blinking = "Always"
 shape = "Beam"
 
 [font]
-size = 12
+size = 9
 
 [font.bold]
-family = "BlexMono Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "BlexMono Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Bold Italic"
 
 [font.italic]
-family = "BlexMono Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Italic"
 
 [font.normal]
-family = "BlexMono Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Regular"
 
 [window]
