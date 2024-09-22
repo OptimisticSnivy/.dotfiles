@@ -5,7 +5,7 @@ unfocused_hollow = true
 
 [cursor.style]
 blinking = "Always"
-shape = "Beam"
+# shape = "Beam"
 
 [font]
 size = 13
