@@ -26,9 +26,16 @@ style = "Italic"
 family = "Fira Mono Nerd Font"
 style = "Regular"
 
+
+[terminal.shell]
+program = "/usr/bin/tmux"
+args = [ "new-session", "-A", "-D", "-s", "main" ]
+
 [window]
 opacity = 0.85
 
 [window.padding]
 x = 12
 y = 12
+
+[terminal]
