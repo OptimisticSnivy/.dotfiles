@@ -1,7 +1,6 @@
 # export PATH=$PATH:~/scripts
 eval "$(starship init bash)"
 
-
 # export PATH=$PATH:~/.cargo/bin/
 # export SYSTEMD_EDITOR=vim
 # export VISUAL=vim
