@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-if [[ $# -eq 1 ]]; then
-    selected=$1
-else
+if [[ $# -eq 1 ]]; then selected=$1 else
     selected=$(find ~/repos ~/.dotfiles -mindepth 1 -maxdepth 1 -type d | fzf)
 fi
 

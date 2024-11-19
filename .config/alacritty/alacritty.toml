@@ -11,15 +11,14 @@ blinking = "Always"
 size = 13
 
 [font.bold]
-family = "Blex Mono Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "Blex Mono Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Bold Italic"
-
 [font.italic]
-family = "Blex Mono Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Italic"
 
 [font.normal]

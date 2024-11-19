@@ -16,8 +16,8 @@ alias btop='btop --utf-force'
 alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 
-# vim mode for terminal
-set -o vi
+# # vim mode for terminal
+# set -o vi
 
 eval "$(zoxide init bash)"
 
