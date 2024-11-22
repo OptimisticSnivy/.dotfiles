@@ -10,20 +10,21 @@ blinking = "Always"
 [font]
 size = 13
 
+[font.normal]
+family = "JetBrains Mono Nerd Font"
+style = "Regular"
+
 [font.bold]
-family = "Fira Mono Nerd Font"
+family = "JetBrains Mono Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "Fira Mono Nerd Font"
+family = "JetBrains Mono Nerd Font"
 style = "Bold Italic"
-[font.italic]
-family = "Fira Mono Nerd Font"
-style = "Italic"
 
-[font.normal]
-family = "Fira Mono Nerd Font"
-style = "Regular"
+[font.italic]
+family = "JetBrains Mono Nerd Font"
+style = "Italic"
 
 # [terminal.shell]
 # program = "/usr/bin/tmux"
