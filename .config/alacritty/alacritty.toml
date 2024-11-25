@@ -8,22 +8,22 @@ blinking = "Always"
 # shape = "Beam"
 
 [font]
-size = 13
+size = 14
 
 [font.normal]
-family = "JetBrains Mono Nerd Font"
+family = "GohuFont 11 Nerd Font Mono"
 style = "Regular"
 
 [font.bold]
-family = "JetBrains Mono Nerd Font"
+family = "GohuFont 11 Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrains Mono Nerd Font"
+family = "GohuFont 11 Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrains Mono Nerd Font"
+family = "GohuFont 11 Nerd Font Mono"
 style = "Italic"
 
 # [terminal.shell]
