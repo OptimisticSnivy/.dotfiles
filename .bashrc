@@ -6,7 +6,7 @@ eval "$(starship init bash)"
 # export VISUAL=vim
 # export EDITOR="$VISUAL"
 
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 # Aliases 
 alias python='python3'

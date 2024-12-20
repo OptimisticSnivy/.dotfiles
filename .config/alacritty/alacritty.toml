@@ -11,19 +11,19 @@ blinking = "Always"
 size = 12
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "D2CodingLigature Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "D2CodingLigature Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "D2CodingLigature Nerd Font"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "D2CodingLigature Nerd Font"
 style = "Italic"
 
 # [terminal.shell]
