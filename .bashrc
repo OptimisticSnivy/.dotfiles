@@ -17,7 +17,7 @@ alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 
 # # vim mode for terminal
-# set -o vi
+set -o vi
 
 eval "$(zoxide init bash)"
 
