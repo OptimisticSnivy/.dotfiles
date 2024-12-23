@@ -227,13 +227,16 @@ bar {
     # }
 }
 
+# Fix default ugly borders & titlebars
 client.focused #ffffff #ffffff #ffffff #ffffff #ffffff
-
 default_border pixel 1
 gaps inner 5
 
-assign [class="Firefox"] workspace 2
+assign [app_id="firefox"] workspace 2
+assign [app_id="pavucontrol"] workspace 5
 
 exec_always gammastep -O 4200
+exec_always nm-applet
+exec_always waybar
 
 include /etc/sway/config.d/*
