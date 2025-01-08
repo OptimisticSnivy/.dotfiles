@@ -12,6 +12,7 @@ eval "$(starship init bash)"
 alias python='python3'
 alias ls='exa'
 alias ll='exa -alh'
+alias cat='bat'
 alias btop='btop --utf-force'
 alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
