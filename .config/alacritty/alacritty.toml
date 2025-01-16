@@ -26,8 +26,8 @@ style = "Bold Italic"
 family = "D2CodingLigature Nerd Font"
 style = "Italic"
 
-# [terminal.shell]
-# program = "/usr/bin/tmux"
+[terminal.shell]
+program = "/usr/bin/bash"
 # args = [ "new-session", "-A", "-D", "-s", "main" ]
 
 [env]												# Fixes tmux colors
