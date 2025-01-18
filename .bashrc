@@ -19,9 +19,6 @@ alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 
 # # vim mode for terminal
 set -o vi
-
-eval "$(zoxide init bash)"
-
 # export PATH=$PATH:/usr/local/go/bin
 # export PATH=$HOME/.local/bin:$PATH
 #
