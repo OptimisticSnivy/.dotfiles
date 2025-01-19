@@ -8,22 +8,22 @@ blinking = "Always"
 # shape = "Beam"
 
 [font]
-size = 13
+size = 12.5
 
 [font.normal]
-family = "D2CodingLigature Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "D2CodingLigature Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "D2CodingLigature Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Bold Italic"
 
 [font.italic]
-family = "D2CodingLigature Nerd Font"
+family = "Fira Mono Nerd Font"
 style = "Italic"
 
 [terminal.shell]

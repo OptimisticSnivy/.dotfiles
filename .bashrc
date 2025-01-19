@@ -1,5 +1,6 @@
 # export PATH=$PATH:~/scripts
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
 
 # export PATH=$PATH:~/.cargo/bin/
 # export SYSTEMD_EDITOR=vim
@@ -12,7 +13,7 @@ eval "$(starship init bash)"
 alias python='python3'
 alias ls='exa'
 alias ll='exa -alh'
-alias cat='bat'
+alias pavucontrol='pavucontrol-qt'
 alias btop='btop --utf-force'
 alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
