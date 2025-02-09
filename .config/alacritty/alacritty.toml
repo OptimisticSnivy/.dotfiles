@@ -8,22 +8,22 @@ blinking = "Always"
 # shape = "Beam"
 
 [font]
-size = 11.5
+size = 12
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka"
 style = "Regular"
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka"
 style = "Italic"
 
 [terminal.shell]
