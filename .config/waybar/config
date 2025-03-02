@@ -1,0 +1,104 @@
+{
+    // "layer": "bottom", // Waybar at top layercon
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["battery","pulseaudio", "network", "clock", "tray"],
+    // Modules configuration
+    // "sway/workspaces": {
+    //     "disable-scroll": true,
+    //     "all-outputs": true,
+    //     "format": "{name}: {icon}",
+    //     "format-icons": {
+    //         "1": "",
+    //         "2": "",
+    //         "3": "",
+    //         "4": "",
+    //         "5": "",
+    //         "urgent": "",
+    //         "focused": "",
+    //         "default": ""
+    //     }
+    // },
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon}",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%I%M %p - %a, %d %b %Y}</big>\n<tt><small>{}</small></tt>",
+				"format": "<span color='#ffffff'>{:%H:%M %d/%m/%Y}</span>",
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+				"tooltip": false
+
+    },
+		"network": {
+			"interface": "wlp4s0",
+			"format": "{ifname}",
+			"format-wifi": "{essid} ({signalStrength}%)  ",
+			"format-ethernet": "{ipaddr}/{cidr} 󰊗",
+			"format-disconnected": "", //An empty format will hide the module.
+			"tooltip-format": "{ifname} via {gwaddr} 󰊗",
+			"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+			"tooltip-format-ethernet": "{ifname} ",
+			"tooltip-format-disconnected": "Disconnected",
+			"max-length": 50,
+			"on-click": "exec nm-applet",
+		},
+		"battery": {
+			"states": {
+				"good": 95,
+				"warning": 30,
+				"critical": 15
+			},
+			"format": "{capacity}%  ",
+			"format-charging": "{capacity}%  ",
+			"format-plugged": "{capacity}%  ",
+			"format-alt": "{time} ",
+			// "format-good": "", // An empty format will hide the module
+			// "format-full": "",
+			// "format-icons": ["", "", "", "", ""]
+		},
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    }
+}
