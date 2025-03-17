@@ -11,19 +11,19 @@ blinking = "Always"
 size = 16
 
 [font.normal]
-family = "Iosevka"
+family = "FantasqueSansM Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "Iosevka"
-style = "Bold"
+family = "FantasqueSansM Nerd Font"
+style = "Regular"
 
 [font.bold_italic]
-family = "Iosevka"
-style = "Bold Italic"
+family = "FantasqueSansM Nerd Font"
+style = "Italic"
 
 [font.italic]
-family = "Iosevka"
+family = "FantasqueSansM Nerd Font"
 style = "Italic"
 
 [terminal.shell]
