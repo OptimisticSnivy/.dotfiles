@@ -2,6 +2,7 @@
   "selectedTemplate": 1,
   "headings": {
     "skills": "Technical Skills",
+    "general skills": "General Skills",
     "projects": "Projects",
     "awards": " Achievements"
   },
@@ -24,7 +25,13 @@
       "location": "Pune,Maharastra",
       "startDate": "Jan 2021"
     },
-    {}
+    {
+      "institution": "BCM Senior Secondary School",
+      "location": "Ludhiana",
+      "area": "Non-Medical",
+      "studyType": "12th",
+      "gpa": "8.6"
+    }
   ],
   "work": [
     {
@@ -74,24 +81,36 @@
       "keywords": [
         ""
       ]
+    },
+    {
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "general skills": [
+    {
+      "name": "English",
+      "level": "",
+      "keywords": [
+        "Fluent"
+      ]
     }
   ],
   "projects": [
     {
       "description": "Needledropd is a social platform for sharing your taste in music. A quasi-Letterdboxd clone but for Music/Vinyls. Made with Svelte as primary frontend. Initially used for personal use for keeping track of Album wishlist, and plan to make it public.",
       "keywords": [
-        "Svelte, JS, NodeJS"
+        "Svelte, JS, PocketBase"
       ],
-      "name": "Needledropd. (In Progress)",
-      "url": "(In progress)"
+      "name": "Needledropd."
     },
     {
       "keywords": [
         "Lua"
       ],
-      "name": "Neovim Plugin/Colorscheme (In progress)",
-      "url": "(In progress)",
-      "description": "Neovim plugin made in Lua. More to write here... "
+      "name": "Paleturq.nvim",
+      "description": "My custom made Neovim colorscheme, made in Lua. Inspired by \"vim-gotham\" and turqouise shades."
     },
     {
       "keywords": [
@@ -113,6 +132,7 @@
     "education",
     "work",
     "skills",
+    "general skills",
     "projects",
     "awards"
   ]
