@@ -2,12 +2,12 @@
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
-# export PATH=$PATH:~/.cargo/bin/
+export PATH=$PATH:~/.cargo/bin/
 # export SYSTEMD_EDITOR=vim
 # export VISUAL=vim
 # export EDITOR="$VISUAL"
 
-# . "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
 
 # Aliases 
 alias python='python3'
