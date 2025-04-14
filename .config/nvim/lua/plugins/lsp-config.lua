@@ -21,7 +21,7 @@ return {
 		lazy = false,
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			local servers = { "ts_ls", "html", "lua_ls", "gopls", "svelte", "cssls", "html", "clangd", "marksman" }
+			local servers = { "ts_ls", "html", "lua_ls", "gopls", "svelte", "cssls", "html", "clangd", "marksman", "basedpyright"}
 			local lspconfig = require("lspconfig")
 
 			for _, lsp in pairs(servers) do
