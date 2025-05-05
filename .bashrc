@@ -11,7 +11,7 @@ export PATH=$PATH:~/.cargo/bin/
 
 # Aliases 
 alias python='python3'
-alias ls='exa'
+alias ls='lsd'
 alias ll='exa -alh'
 alias pavucontrol='pavucontrol-qt'
 alias btop='btop --utf-force'
