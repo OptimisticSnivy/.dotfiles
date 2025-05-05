@@ -2,18 +2,18 @@
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
-export PATH=$PATH:~/.cargo/bin/
+# export PATH=$PATH:~/.cargo/bin/
 # export SYSTEMD_EDITOR=vim
 # export VISUAL=vim
 # export EDITOR="$VISUAL"
 
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 # Aliases 
 alias python='python3'
 alias ls='lsd'
-alias ll='exa -alh'
-alias pavucontrol='pavucontrol-qt'
+alias ll='lsd -alh'
+# alias pavucontrol='pavucontrol-qt'
 alias btop='btop --utf-force'
 alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
