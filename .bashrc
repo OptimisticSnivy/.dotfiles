@@ -13,8 +13,9 @@ eval "$(zoxide init bash)"
 alias python='python3'
 alias ls='lsd'
 alias ll='lsd -alh'
+alias runplasma='/usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland '
 # alias pavucontrol='pavucontrol-qt'
-alias btop='btop --utf-force'
+# alias btop='btop --utf-force'
 alias dots='cd ~/.dotfiles/.config'
 alias cpuf='cd /sys/devices/system/cpu/cpufreq'
 
