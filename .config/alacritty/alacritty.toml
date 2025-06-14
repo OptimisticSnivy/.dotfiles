@@ -11,19 +11,19 @@ blinking = "Always"
 size = 14
 
 [font.normal]
-family = "Aporetic Sans Mono Nerd Font"
+family = "FantasqueSansM Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "Aporetic Sans Mono Nerd Font"
+family = "FantasqueSansM Nerd Font"
 style = "Regular"
 
 [font.bold_italic]
-family = "Aporetic Sans Mono Nerd Font"
+family = "FantasqueSansM Nerd Font"
 style = "Italic"
 
 [font.italic]
-family = "Aporetic Sans Mono Nerd Font"
+family = "FantasqueSansM Nerd Font"
 style = "Italic"
 
 [env]												# Fixes tmux colors
