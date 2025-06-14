@@ -1,9 +1,9 @@
 {
      "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 5, // Waybar height (to be removed for auto height)
+    "height": 10, // Waybar height (to be removed for auto height)
     "modules-left": ["hyprland/workspaces", "hyprland/mode"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["network", "backlight", "battery", "clock", "tray"],
+    "modules-right": ["network", "pulseaudio","network","backlight", "battery", "clock", "tray"],
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
     },

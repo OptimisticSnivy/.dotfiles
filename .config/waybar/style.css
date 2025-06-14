@@ -2,26 +2,22 @@
   border: none;
   /* `ttf-font-awesome` is required to be installed for icons */
   font-family: "FantasqueSansM Nerd Font", Helvetica, Arial, sans-serif;
-
   /* adjust font-size value to your liking: */
   font-size: 14px;
-
   min-height: 0;
 }
 
 window#waybar {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.4);
   color: #ffffff;
 }
 
 #workspaces button {
   color: #ffffff;
-  box-shadow: inset 0 -3px transparent;
 }
 
 #workspaces button:hover {
   background: rgba(0, 0, 0, 0.9);
-  box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.focused {
@@ -50,8 +46,6 @@ window#waybar {
 #idle_inhibitor,
 #mpd {
   padding: 0 10px;
-  margin: 6px 3px;
-  color: #000000;
 }
 
 #window,
@@ -70,23 +64,19 @@ window#waybar {
 }
 
 #clock {
-  background-color: #000000;
   color: white;
 }
 
 #battery {
-  background-color: #000000;
   color: white;
 }
 
 #battery.charging {
   color: #ffffff;
-  background-color: #000000;
 }
 
 @keyframes blink {
   to {
-    background-color: #ffffff;
     color: #000000;
   }
 }
@@ -116,26 +106,21 @@ label:focus {
 }
 
 #backlight {
-  background-color: #000000;
   color: white;
 }
 
 #network {
-  background-color: #000000;
   color: white;
 }
 
 #network.disconnected {
-  background-color: #f53c3c;
 }
 
 #pulseaudio {
-  background-color: #000000;
   color: #ffffff;
 }
 
 #pulseaudio.muted {
-  background-color: #000000;
   color: #ffffff;
 }
 
@@ -192,7 +177,6 @@ label:focus {
 }
 
 #language {
-  background: #bbccdd;
   color: #333333;
   padding: 0 5px;
   margin: 6px 3px;
