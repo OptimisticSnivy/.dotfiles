@@ -11,26 +11,26 @@ blinking = "Always"
 size = 14
 
 [font.normal]
-family = "FantasqueSansM Nerd Font"
+family = "D2CodingLigature Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "FantasqueSansM Nerd Font"
+family = "D2CodingLigature Nerd Font"
 style = "Regular"
 
 [font.bold_italic]
-family = "FantasqueSansM Nerd Font"
+family = "D2CodingLigature Nerd Font"
 style = "Italic"
 
 [font.italic]
-family = "FantasqueSansM Nerd Font"
+family = "D2CodingLigature Nerd Font"
 style = "Italic"
 
 [env]												# Fixes tmux colors
 TERM = "xterm-256color"
 
 [window]
-opacity = 0.7
+opacity = 0.8
 
 [window.padding]
 x = 12
