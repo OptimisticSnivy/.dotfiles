@@ -11,19 +11,19 @@ blinking = "Always"
 size = 14
 
 [font.normal]
-family = "D2CodingLigature Nerd Font"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "D2CodingLigature Nerd Font"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [font.bold_italic]
-family = "D2CodingLigature Nerd Font"
+family = "Agave Nerd Font"
 style = "Italic"
 
 [font.italic]
-family = "D2CodingLigature Nerd Font"
+family = "Agave Nerd Font"
 style = "Italic"
 
 [env]												# Fixes tmux colors
