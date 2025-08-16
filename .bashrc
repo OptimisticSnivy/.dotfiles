@@ -1,6 +1,6 @@
 # export PATH=$PATH:~/scripts
-eval "$(starship init bash)"
-eval "$(zoxide init bash)"
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 # export PATH=$PATH:~/.cargo/bin/
 # export SYSTEMD_EDITOR=vim

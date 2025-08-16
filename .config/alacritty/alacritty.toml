@@ -8,22 +8,22 @@ blinking = "Always"
 # shape = "Beam"
 
 [font]
-size = 14
+size = 15
 
 [font.normal]
-family = "Agave Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "Agave Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Regular"
 
 [font.bold_italic]
-family = "Agave Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Italic"
 
 [font.italic]
-family = "Agave Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Italic"
 
 [env]												# Fixes tmux colors
