@@ -1,3 +1,4 @@
 font-family = "Iosevka Nerd Font"
 background-opacity = 0.8
-theme = rose-pine
+background = black
+confirm-close-surface = false
