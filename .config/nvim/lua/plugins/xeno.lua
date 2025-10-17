@@ -14,6 +14,7 @@ return {
 			base = "#1E1E1E",
 			accent = "#6dbdf8",
 		})
+
 		vim.cmd("colorscheme mrfreeze")
 	end,
 }
