@@ -1,16 +1,7 @@
 return {
-	"rose-pine/neovim",
-	version = false,
-	lazy = false,
+	"savq/melange-nvim",
 	priority = 1000,
 	config = function()
-		require("rose-pine").setup({
-			styles = {
-				bold = true,
-				italic = true,
-				transparency = true,
-			},
-		})
-		vim.cmd.colorscheme("rose-pine")
+		vim.cmd.colorscheme("melange")
 	end,
 }
