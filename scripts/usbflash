@@ -1,1 +1,0 @@
-sudo pv installer.img -Yo /path/to/block/device
