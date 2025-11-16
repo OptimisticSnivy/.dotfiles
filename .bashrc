@@ -12,6 +12,7 @@ eval "$(zoxide init zsh)"
 # Aliases 
 alias python='python3'
 alias ls='lsd'
+alias ls='lsd'
 alias ll='lsd -alh'
 alias runplasma='/usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland '
 # alias pavucontrol='pavucontrol-qt'

@@ -177,6 +177,7 @@ return {
 				cssls = {},
 				ts_ls = {},
 				marksman = {},
+				tailwindcss = {},
 				lua_ls = {},
 			}
 
@@ -186,6 +187,7 @@ return {
 				"html",
 				"cssls",
 				"ts_ls",
+				"tailwindcss",
 				"marksman",
 				"lua_ls",
 			})
