@@ -176,21 +176,14 @@ return {
 				html = {},
 				cssls = {},
 				ts_ls = {},
+				gopls = {},
 				marksman = {},
 				tailwindcss = {},
 				lua_ls = {},
 			}
 
 			local ensure_installed = vim.tbl_keys(servers or {})
-			vim.list_extend(ensure_installed, {
-				"stylua",
-				"html",
-				"cssls",
-				"ts_ls",
-				"tailwindcss",
-				"marksman",
-				"lua_ls",
-			})
+			vim.list_extend(ensure_installed, servers)
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
 			require("mason-lspconfig").setup({
