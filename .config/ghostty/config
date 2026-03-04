@@ -1,7 +1,9 @@
 background-opacity = 0.9
 
-font-family = "ZedMono Nerd Font"
+font-family = "EnvyCodeR Nerd Font Mono"
 font-size = 14
+
+theme = Melange Dark
 
 window-height=510
 window-width=1640
